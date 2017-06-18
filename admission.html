@@ -1,0 +1,71 @@
+<html>
+<head>
+	<style>
+Td
+{background-color:#FFCCCC;
+font-family:Georgia, "Times New Roman", Times, serif;
+border-radius: 10px;
+border: 1px solid #c6c7cc;}
+form 
+{border: 1px solid #c6c7cc;
+border-radius: 10px;
+font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+width: 600px;
+background-color:#00CCFF;}
+input 
+{
+border-radius: 10px;
+font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+
+<form action="db.php" method="post">
+<h2 align="center">Registration Form</h2>
+<table cellspacing="5" cellpadding="5" align="center">
+<tr><td>User Name</td>
+<td ><input type="text" name="UserName" size="25" maxlength="15" id="t1" method="post"></td></tr>
+<tr><td>Password</td>
+<td><input type="text" name="password" size="25" maxlength="12"></td>
+</tr>
+<tr><td>Confirm Password</td>
+<td><input type="text" name="confirmpassword" size="25" maxlength="12"></td></tr>
+<tr><td>Email Id:</td>
+<td><input type="text" name="email" id="email" size="40" maxlength="40" id="t8"></td>
+</tr>
+<tr>
+<td colspan="2">Gender:-
+<input type="radio" name="gender1"  value="Male" id="t2">
+Male
+<input type="radio" name="gender2" value="Female" id="t3">
+Female</td>
+</tr>
+<tr>
+<td>Date of Birth: <br>(dd/mm/yyy)</td>
+<td><input type="text" name="DOB" id="t9" size="10" maxlength="10">
+</tr>
+<tr>
+<td colspan="2">Hobbies:-
+<input type="checkbox" name="cricket" value="Cricket" id="t4">
+Cricket
+<input type="checkbox" name="Badminton" value="Badminton" id="t5">Badminton</td>
+</tr>
+<tr>
+<td colspan="2">Select Field:
+<select name="select" size="1" id="t6">
+<option value="IT">IT</option>
+<option value="EC">EC</option>
+<option value="CE">CE</option>
+</select></td>
+</tr>
+<tr>
+<td>Mobile No:</td>
+<td ><input type="text" name="MobileNo" size="10" maxlength="10" id="t10"></td>
+</tr>
+</table> <center>
+<p><input type="submit" value="Sign Up"><p>
+</center>
+</form>
+</body>
+</html>
